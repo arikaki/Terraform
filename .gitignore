@@ -1,0 +1,45 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Ignore the .terraform directory, which stores provider binaries and plugins
+.terraform/
+
+# Ignore override files as they are usually used to override settings during development
+*.tfvars
+*.tfvars.json
+
+# Ignore sensitive files containing secrets
+*.tfvars
+*.tfvars.json
+
+# Terraform plan output files
+*.tfplan
+
+# Ignore any zip files, for example, if AWS Lambda packages are generated locally
+*.zip
+
+# Lock files (depending on whether you're using local backends or remote backends)
+.terraform.lock.hcl
+
+# Sensitive credentials files (if used, although it's better to use environment variables or secret management services)
+credentials.tfrc.json
+
+# Ignore local workspace files
+.terraform.tfstate.d/
+
+# Ignore any editor or OS-specific files
+# Example: macOS
+.DS_Store
+
+# Example: Windows
+Thumbs.db
+*.log
+
+# Example: Linux
+*.swp
+
+.terraform.lock.hcl
